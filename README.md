@@ -15,3 +15,14 @@ To build and push an individual image, change to that image's directory, then ru
 - node 8 lambda environment
 - yarn installed
 - `APPDIR` and `APPUSER` initialized
+
+## psql
+
+- installed Postgres client to lambda environment OS.
+
+Use like so:
+
+```
+COPY --from=campusexplorer/psql:latest /usr/local/pgsql /usr/local/pgsql
+ENV PATH=$PATH:/usr/local/pgsql/bin
+```
