@@ -12,11 +12,15 @@ To build and push an individual image, change to that image's directory, then ru
 
 ## base-node8
 
+IMPORTANT: This is a public image
+
 - node 8 lambda environment
 - yarn installed
 - `APPDIR` and `APPUSER` initialized
 
 ## psql
+
+IMPORTANT: This is a public image
 
 - installed Postgres client to lambda environment OS.
 
