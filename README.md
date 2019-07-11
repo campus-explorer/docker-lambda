@@ -30,3 +30,15 @@ Use like so:
 COPY --from=campusexplorer/psql:latest /usr/local/pgsql /usr/local/pgsql
 ENV PATH=$PATH:/usr/local/pgsql/bin
 ```
+
+## jq
+
+IMPORTANT: This is a public image
+
+- installed jq to lambda environment OS.
+
+Use like so:
+
+```
+COPY --from=campusexplorer/jq:latest /usr/bin/jq /usr/bin/jq
+```
