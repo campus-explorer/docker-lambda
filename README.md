@@ -18,6 +18,10 @@ IMPORTANT: This is a public image
 - yarn installed
 - `APPDIR` and `APPUSER` initialized
 
+## base-node10
+
+Just like base-node8, but uses node v10
+
 ## psql
 
 IMPORTANT: This is a public image
