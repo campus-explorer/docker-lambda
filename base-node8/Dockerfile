@@ -20,5 +20,9 @@ RUN useradd --system --uid 370 -U $APPUSER \
     && chown -R $APPUSER:$APPUSER $APPDIR \
     && mkdir -p /home/app \
     && chown -R $APPUSER:$APPUSER /home/app
+
+# Make sure ~/.aws dir is owend by app user
+RUN mkdir -p /home/app/.aws && chown app:app /home/app/.aws
+
 USER $APPUSER
 WORKDIR $APPDIR
