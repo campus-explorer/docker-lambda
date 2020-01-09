@@ -22,6 +22,10 @@ IMPORTANT: This is a public image
 
 Just like base-node8, but uses node v10
 
+## base-node12
+
+Just like base-node8, but uses node v12
+
 ## psql
 
 IMPORTANT: This is a public image
